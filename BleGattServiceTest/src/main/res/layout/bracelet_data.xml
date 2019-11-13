@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#F0F0F0"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+		<TextView
+		    android:id="@+id/title_devicename"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_devicename"  />
+		<TextView
+		    android:id="@+id/data_device_name"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text=""  />				
+	</LinearLayout>
+
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+		<TextView
+		    android:id="@+id/title_manufacturer"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_manufacturer"  />
+		<TextView
+		    android:id="@+id/data_manufacturer"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text=""  />				
+	</LinearLayout>
+			
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >		
+		<TextView
+		    android:id="@+id/title_btaddress"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_btaddress"  />
+		<TextView
+		    android:id="@+id/data_btaddress"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="00:00:00:00:00:00"  />				
+	</LinearLayout>
+
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+		<TextView
+		    android:id="@+id/title_hardware_revision"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_hardware_revision"  />
+		<TextView
+		    android:id="@+id/data_hardware_revision"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text=""  />				
+	</LinearLayout>
+	
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+		<TextView
+		    android:id="@+id/title_firmware_revision"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_firmware_revision"  />
+		<TextView
+		    android:id="@+id/data_firmware_revision"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="" />				
+	</LinearLayout>
+
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+		<TextView
+		    android:id="@+id/title_software_revision"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_software_revision"  />
+		<TextView
+		    android:id="@+id/data_software_revision"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text=""  />				
+	</LinearLayout>
+
+
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+		<TextView
+		    android:id="@+id/title_steps"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_steps"  />
+		<TextView
+		    android:id="@+id/data_steps"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text=""  />				
+	</LinearLayout>
+							
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+		<TextView
+		    android:id="@+id/title_distance"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_distance"  />
+		<TextView
+		    android:id="@+id/data_distance"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text=""  />
+						
+	</LinearLayout>
+	
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+		<TextView
+		    android:id="@+id/title_calorie"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_calorie"  />
+		<TextView
+		    android:id="@+id/data_calorie"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text=""  />				
+	</LinearLayout>
+		
+	<LinearLayout 
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+		<TextView
+		    android:id="@+id/title_timestamp"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/title_timestamp"  />
+		<TextView
+		    android:id="@+id/data_timestamp"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text=""  />				
+	</LinearLayout>
+	
+</LinearLayout>
+              

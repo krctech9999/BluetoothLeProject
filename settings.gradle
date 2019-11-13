@@ -1,0 +1,3 @@
+include ':BluetoothLeService'
+include ':BleGattServiceTest'
+

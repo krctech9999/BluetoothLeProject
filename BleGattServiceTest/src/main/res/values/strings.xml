@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BleGattServiceTest</string>
+    <string name="title_bledeviceitem_detail">BleDeviceItem Detail</string>
+	<string name="unknown_device">Unknown Device</string>
+	<string name="ble_not_supported">Bluetooth Le Adapter Not Supported!</string>
+	<string name="menu_scan">Scan</string>
+	<string name="menu_stop">Stop Scan</string>
+	<string name="title_devicename">Device Name</string>
+	<string name="title_manufacturer">Manufacturer</string>
+	<string name="title_btaddress">BT Address</string>
+	<string name="title_hardware_revision">HW Revision</string>
+	<string name="title_firmware_revision">FW Revision</string>
+	<string name="title_software_revision">SW Revision</string>
+	<string name="title_speed">Instant Speed</string>
+	<string name="title_cadence">Cadence</string>
+	<string name="title_distance">Distance</string>
+	<string name="title_steps">Steps</string>
+	<string name="title_calorie">Calorie</string>
+	<string name="title_timestamp">TimeStamp</string>
+	
+</resources>
